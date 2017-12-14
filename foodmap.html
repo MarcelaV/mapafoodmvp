@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<meta charset="utf-8">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="assets/css/foodmap.css">
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  	
+	<title>FoodMap</title>
+</head>
+<body>
+
+	<header class="splash container">
+		<div class="row container">
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+				<div class="section-center">
+				<img class="splashimg" src="assets/images/splash1.png" >	
+				</div>
+			</div>
+		</div>
+	</header>
+
+
+	<section style="text-align: center;">
+		<h1 align="center">FoodMap</h1>
+		<div class="row">
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+  				<iframe class="mapafood" 
+  				src="https://www.google.com/maps/embed/v1/	place?key=AIzaSyAFOPjiQbY-MHhZmIPwOGJlmr1Pfh7MQnE
+   				&q=Space+Needle,Seattle+WA" allowfullscreen>
+				</iframe>			
+   			</div>
+   		</div>
+   	</section>
+
+
+
+<!--    	<section class="buscador">
+		<h1 align="center">Comida cerca de ti</h1>
+		<div class="row">
+			<div class="col-xs-12">
+				<div align="center" class="row">
+					<div class="col-lg-6">
+						<div class="input-group">
+							<input type="text" class="form-control" placeholder="Search for...">
+							<span class="input-group-btn">
+        					<button class="btn btn-default" type="button">Ir!</button>
+      						</span>
+    					</div>
+  					</div>
+				</div>
+			</div>
+		</div>
+	</section> -->
+
+
+
+<!--  	<div id="container">
+ 		<h1>Filtro</h1>
+ 		<div class="content">
+ 			<div class="search">
+ 				<input type="text" id="busqueda" placeholder="Buscar ...">
+ 				<i class="fa fa-search"></i>
+ 			</div>
+ 			<ul>
+ 				<li><button class="btn peach-gradient btn-rounded">Peach</button></li>
+ 				<li><button class="btn peach-gradient btn-rounded">Peach</button></li>
+ 				<li><button class="btn peach-gradient btn-rounded">Peach</button></li>
+ 			</ul>
+ 		</div>
+ 	</div> -->
+<br>
+<br>
+<!-- 	<div id="container">
+    	<div class="content">
+        	<div class="search">
+        		<input type="text" id="inputSearch" placeholder="Elige entre italiana, japonesa o chilena">
+        		<i class="fa fa-search"></i>
+        	</div>
+        	<ul>
+            	<li class="italianaopcion">
+                	<div class="btn-group">
+                    	<button style="background-color: #A52A2A;" type="button" class="btn btn-warning dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><p>Mexicana</p><span class="caret"></span>
+                    	</button>
+                	</div>
+            	</li>
+            	<li class="japonesaopcion">
+                	<div class="btn-group">
+                		<button style="background-color: #A52A2A;" type="button" class="btn btn-warning dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><p>Peruana</p><span class="caret"></span>
+                    	</button>
+                	</div>
+            	</li>
+            	<li class="chilenaopcion">
+                	<div class="btn-group">
+                        <button style="background-color: #A52A2A;" type="button" class="btn btn-warning dropdown-toggle" data-toggle="dropdown" aria-haspopup="false" aria-expanded="false"><p>Chilena</p><span class="caret"></span>
+                        </button>
+                	</div>
+            	</li>      
+        	</ul>
+    	</div>
+	</div> -->
+
+
+
+
+
+    <div class="container">
+    	<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Chilena</button>
+    	<div class="modal fade" id="myModal" role="dialog">
+    		<div class="modal-dialog">
+    			<div class="modal-content">
+    				<div class="modal-header">
+    					<button type="button" class="close" data-dismiss="modal">&times;</button>
+    					<h4 class="modal-title">Comida Chilena</h4>
+    					<h6>Desplaza el mouse sobre la imagen para mayor información</h6>
+    				</div>
+    				<div class="modal-body">
+    					<center><img width="150em;" height="100em;" src="assets/images/chilena1.jpg" alt="" title="Plato: Cazuela. Rango de precios $2.500-$6.000" style="border: 0.4em solid white;">
+    					<img width="150em;" height="100em;" src="assets/images/chilena2.jpg" alt="" title="Plato: Empanada. Rango de precios $2.500-$6.000" style="border: 0.4em solid white;">
+     		 			<img width="150em;" height="100em;" src="assets/images/chilena3.jpg" alt="" title="Plato: Pastel de Choclo. Rango de precios $2.500-$6.000" style="border: 0.4em solid white;">
+     		 			<img width="150em;" height="100em;" src="assets/images/chilena4.jpg" alt="" title="Plato: Porotos. Rango de precios $2.500-$6.000" style="border: 0.4em solid white;">
+     		 			<img width="150em;" height="100em;" src="assets/images/chilena5.jpg" alt="" title="Plato: Carbonada. Rango de precios $2.500-$6.000" style="border: 0.4em solid white;"></center>
+    				</div>
+    				<div class="modal-footer">
+    					<button type="button" class="btn btn-default" data-dismiss="modal" style="background-color: black;">Cerrar</button>
+        			</div>
+      			</div>
+    		</div>
+  		</div>
+	</div>
+
+	<div class="container">
+    	<button type="button2" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Italiana</button>
+    	<div class="modal fade2" id="myModal2" role="dialog2">
+    		<div class="modal-dialog2">
+    			<div class="modal-content2">
+    				<div class="modal-header2">
+    					<button type="button2" class="close2" data-dismiss="modal2">&times;</button>
+    					<h4 class="modal-title">Comida Italiana</h4>
+    					<h6>Desplaza el mouse sobre la imagen para mayor información</h6>
+    				</div>
+    				<div class="modal-body2">
+    					<center><img width="150em;" height="100em;" src="assets/images/italiana1.jpg" alt="" title="Plato: Cazuela. Rango de precios $2.500-$6.000" style="border: 0.4em solid white;">
+    					<img width="150em;" height="100em;" src="assets/images/italiana2.jpg" alt="" title="Plato: Empanada. Rango de precios $2.500-$6.000" style="border: 0.4em solid white;">
+     		 			<img width="150em;" height="100em;" src="assets/images/italiana3.jpg" alt="" title="Plato: Pastel de Choclo. Rango de precios $2.500-$6.000" style="border: 0.4em solid white;">
+     		 			<img width="150em;" height="100em;" src="assets/images/italiana4.jpg" alt="" title="Plato: Porotos. Rango de precios $2.500-$6.000" style="border: 0.4em solid white;">
+     		 			<img width="150em;" height="100em;" src="assets/images/italiana5.jpg" alt="" title="Plato: Carbonada. Rango de precios $2.500-$6.000" style="border: 0.4em solid white;"></center>
+    				</div>
+    				<div class="modal-footer">
+    					<button type="button" class="btn btn-default" data-dismiss="modal" style="background-color: black;">Cerrar</button>
+        			</div>
+      			</div>
+    		</div>
+  		</div>
+	</div>
+
+	<div class="container">
+    	<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Japonesa</button>
+    	<div class="modal fade" id="myModal" role="dialog">
+    		<div class="modal-dialog">
+    			<div class="modal-content">
+    				<div class="modal-header">
+    					<button type="button" class="close" data-dismiss="modal">&times;</button>
+    					<h4 class="modal-title">Comida Japonesa</h4>
+    					<h6>Desplaza el mouse sobre la imagen para mayor información</h6>
+    				</div>
+    				<div class="modal-body">
+    					<center><img width="150em;" height="100em;" src="assets/images/chilena1.jpg" alt="" title="Plato: Cazuela. Rango de precios $2.500-$6.000" style="border: 0.4em solid white;">
+    					<img width="150em;" height="100em;" src="assets/images/chilena2.jpg" alt="" title="Plato: Empanada. Rango de precios $2.500-$6.000" style="border: 0.4em solid white;">
+     		 			<img width="150em;" height="100em;" src="assets/images/chilena3.jpg" alt="" title="Plato: Pastel de Choclo. Rango de precios $2.500-$6.000" style="border: 0.4em solid white;">
+     		 			<img width="150em;" height="100em;" src="assets/images/chilena4.jpg" alt="" title="Plato: Porotos. Rango de precios $2.500-$6.000" style="border: 0.4em solid white;">
+     		 			<img width="150em;" height="100em;" src="assets/images/chilena5.jpg" alt="" title="Plato: Carbonada. Rango de precios $2.500-$6.000" style="border: 0.4em solid white;"></center>
+    				</div>
+    				<div class="modal-footer">
+    					<button type="button" class="btn btn-default" data-dismiss="modal" style="background-color: black;">Cerrar</button>
+        			</div>
+      			</div>
+    		</div>
+  		</div>
+	</div>
+
+
+
+
+
+
+   	<script type="text/javascript" src="assets/js/foodmap.js"></script>
+   	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+<!--     <section  class="chilena" style="padding: 1em; text-align: center;">
+    	<div class="row">
+  			<div class="col-lg-12 col-md-12 col-sm-3 col-xs-12"">
+    			<a href="#" class="thumbnail">
+     		 		<img width="300em;" height="200em;" src="assets/images/chilena1.jpg" alt="">
+     		 		<img width="300em;" height="200em;" src="assets/images/chilena2.jpg" alt="">
+     		 		<img width="300em;" height="200em;" src="assets/images/chilena3.jpg" alt="">
+     		 		<center><img width="300em;" height="200em;" src="assets/images/chilena4.jpg" alt="">
+     		 		<img width="300em;" height="200em;" src="assets/images/chilena5.jpg" alt=""></center>
+   				 </a>
+ 			 </div>
+		</div>
+    </section>
+
+    <section  class="japonesa" style="padding: 1em; text-align: center;">
+    	<div class="row">
+  			<div class="col-lg-12 col-md-12 col-sm-3 col-xs-12"">
+    			<a href="#" class="thumbnail">
+     		 		<img width="300em;" height="200em;" src="assets/images/japonesa1.jpg" alt="">
+     		 		<img width="300em;" height="200em;" src="assets/images/japonesa2.jpg" alt="">
+     		 		<img width="300em;" height="200em;" src="assets/images/japonesa3.jpg" alt="">
+     		 		<center><img width="300em;" height="200em;" src="assets/images/japonesa4.jpg" alt="">
+     		 		<img width="300em;" height="200em;" src="assets/images/japonesa5.jpg" alt=""></center>
+   				 </a>
+ 			 </div>
+		</div>
+    </section>
+
+    <section  class="italiana" style="padding: 1em; text-align: center;">
+    	<div class="row">
+  			<div class="col-lg-12 col-md-12 col-sm-3 col-xs-12"">
+    			<a href="#" class="thumbnail">
+     		 		<img width="300em;" height="200em;" src="assets/images/italiana1.jpg" alt="">
+     		 		<img width="300em;" height="200em;" src="assets/images/italiana2.jpg" alt="">
+     		 		<img width="300em;" height="200em;" src="assets/images/italiana3.jpg" alt="">
+     		 		<center><img width="300em;" height="200em;" src="assets/images/italiana4.jpg" alt="">
+     		 		<img width="300em;" height="200em;" src="assets/images/italiana5.jpg" alt=""></center>
+   				 </a>
+ 			 </div>
+		</div>
+    </section> -->
